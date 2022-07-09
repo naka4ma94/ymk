@@ -38,7 +38,7 @@ main {
 
 .button {
   width: 400px;
-  border: 1px solid #3D8D90;
+  border: 1px solid #555456;
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ main {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.1em;
-  color: #3D8D90;
+  color: #555456;
   background: #fff;
   padding: 21px 0;
   text-align: center;
@@ -294,8 +294,8 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-filter: drop-shadow(0px 4px 50px rgba(211, 231, 233, 0.5));
-          filter: drop-shadow(0px 4px 50px rgba(211, 231, 233, 0.5));
+  -webkit-filter: drop-shadow(0px 4px 50px rgba(52, 71, 86, 0.2));
+          filter: drop-shadow(0px 4px 50px rgba(52, 71, 86, 0.2));
   z-index: 999;
   background: #fff;
 }
@@ -359,7 +359,7 @@ main {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #344756;
   margin-bottom: 6px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -626,9 +626,9 @@ main {
 
 .home .top__logo {
   position: absolute;
-  top: 3.8%;
+  top: 10%;
   left: 6.97%;
-  width: 575px;
+  width: 400px;
   z-index: 1;
 }
 
@@ -1009,7 +1009,7 @@ main {
   font-size: 42px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #fff;
   margin-bottom: 30px;
 }
 
@@ -1027,7 +1027,7 @@ main {
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.05em;
-  color: #344756;
+  color: #fff;
   margin-bottom: 60px;
 }
 
