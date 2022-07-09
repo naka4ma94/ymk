@@ -74,7 +74,7 @@ main {
 .button__text::after {
   font-family: 'Material Icons';
   content: "arrow_forward";
-  color: #3D8D90;
+  color: #000;
   font-size: 18px;
   vertical-align: sub;
   position: absolute;
@@ -95,7 +95,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  background: #3D8D90;
+  background: #000;
   width: 0;
   height: 100%;
   -webkit-transition: all 0.5s;
@@ -147,7 +147,7 @@ main {
 }
 
 .active {
-  background-color: #3D8D90 !important;
+  background-color: #000 !important;
   color: #fff !important;
 }
 
@@ -170,7 +170,7 @@ main {
 }
 
 .wp-pagenavi a:hover {
-  border-color: #3D8D90;
+  border-color: #000;
 }
 
 .wp-pagenavi .pages {
@@ -180,7 +180,7 @@ main {
   font-weight: 600;
   font-size: 18px;
   line-height: 130%;
-  color: #3D8D90;
+  color: #000;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -207,14 +207,14 @@ main {
   width: 200px;
   text-align: center;
   padding: 21px;
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   font-family: Shippori Mincho B1;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.1em;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -230,14 +230,14 @@ main {
   width: 200px;
   text-align: center;
   padding: 21px 0;
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   font-family: Shippori Mincho B1;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.1em;
-  color: #3D8D90;
+  color: #000;
   margin-left: auto;
 }
 
@@ -255,7 +255,7 @@ main {
   font-weight: 600;
   font-size: 20px;
   line-height: 130%;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -344,11 +344,11 @@ main {
 
 @media screen and (min-width: 769px) {
   .pc-header__list .item > a:hover {
-    border-top: 8px solid #3D8D90;
+    border-top: 8px solid #000;
     padding-top: 15px;
   }
   .pc-header__list .item > a:hover .item__ja {
-    color: #3D8D90;
+    color: #000;
   }
 }
 
@@ -359,7 +359,7 @@ main {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #344756;
+  color: #000;
   margin-bottom: 6px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -372,7 +372,7 @@ main {
   font-size: 12px;
   line-height: 100%;
   letter-spacing: 0.3em;
-  color: #B5E366;
+  color: #344756;
 }
 
 .pc-header__item {
@@ -395,7 +395,7 @@ main {
 
 .pc-header__link {
   width: 22.049%;
-  background: #3D8D90;
+  background: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -483,7 +483,7 @@ main {
 
 .sp-header__contact {
   width: 50%;
-  background: #B5E366;
+  background: #344756;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,7 +502,7 @@ main {
 
 .sp-header__hamburger {
   width: 50%;
-  background: #3D8D90;
+  background: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -703,13 +703,13 @@ main {
   top: -14px;
   right: -10px;
   padding: 10px;
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 100%;
-  color: #3D8D90;
+  color: #000;
   background: #fff;
   z-index: 1;
 }
@@ -789,7 +789,7 @@ main {
   line-height: 100%;
   color: #FFFFFF;
   padding: 5px 8px;
-  background: #3D8D90;
+  background: #000;
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -811,7 +811,7 @@ main {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -828,7 +828,7 @@ main {
   font-weight: 600;
   font-size: 16px;
   line-height: 160%;
-  color: #071C27;
+  color: #000;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -863,7 +863,7 @@ main {
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0.3em;
-  color: #C4DDDC;
+  color: #000;
   margin-top: 7px;
 }
 
@@ -899,7 +899,7 @@ main {
   content: '';
   width: 1px;
   height: 100px;
-  background: #C4DDDC;
+  background: #000;
   display: block;
   margin-bottom: 15px;
 }
@@ -969,7 +969,7 @@ main {
     opacity: 0.5;
   }
   .home .news__item:hover .item__title {
-    color: #3D8D90;
+    color: #000;
     text-decoration: underline;
   }
 }
@@ -1106,7 +1106,7 @@ main {
   content: '';
   width: 1px;
   height: 100px;
-  background: #C4DDDC;
+  background: #000;
   display: block;
   margin-bottom: 15px;
 }
@@ -1139,7 +1139,7 @@ main {
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0.3em;
-  color: #C4DDDC;
+  color: #000;
   margin-top: 7px;
 }
 
@@ -1292,7 +1292,7 @@ main {
   content: '';
   width: 1px;
   height: 100px;
-  background: #C4DDDC;
+  background: #000;
   display: block;
   margin-bottom: 15px;
 }
@@ -1325,7 +1325,7 @@ main {
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0.3em;
-  color: #C4DDDC;
+  color: #000;
   margin-top: 7px;
 }
 
@@ -1442,7 +1442,7 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #3D8D90;
+  background: #000;
   padding: 15px 20px;
   display: inline-block;
   font-family: Noto Sans JP;
@@ -1468,7 +1468,7 @@ main {
   font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -1492,7 +1492,7 @@ main {
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -1579,7 +1579,7 @@ main {
   content: '';
   width: 1px;
   height: 100px;
-  background: #C4DDDC;
+  background: #000;
   display: block;
   margin-bottom: 15px;
 }
@@ -1613,7 +1613,7 @@ main {
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0.3em;
-  color: #C4DDDC;
+  color: #000;
   margin-top: 7px;
 }
 
@@ -1759,7 +1759,7 @@ main {
   font-size: 28px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 20px;
 }
 
@@ -1777,7 +1777,7 @@ main {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.1em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -1806,7 +1806,7 @@ main {
 
 @media screen and (max-width: 768px) {
   .home .sdgs img {
-    border: 1px solid #3D8D90;
+    border: 1px solid #000;
   }
 }
 
@@ -1817,7 +1817,7 @@ main {
   font-size: 24px;
   line-height: 100%;
   color: #FFFFFF;
-  background: #3D8D90;
+  background: #000;
   padding: 27px 40px 26px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1920,7 +1920,7 @@ main {
   content: '';
   width: 1px;
   height: 100px;
-  background: #C4DDDC;
+  background: #000;
   display: block;
   margin-bottom: 15px;
 }
@@ -1947,7 +1947,7 @@ main {
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0.3em;
-  color: #C4DDDC;
+  color: #000;
   margin-top: 7px;
 }
 
@@ -1985,13 +1985,13 @@ main {
 .home .link__item {
   width: 31.578947368421%;
   padding: 34px 0 33px 0;
-  background: #C4DDDC;
+  background: #000;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 130%;
-  color: #071C27;
+  color: #fff;
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -2026,7 +2026,7 @@ main {
   line-height: 130%;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #3D8D90;
+  color: #000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -2052,7 +2052,7 @@ main {
   font-weight: normal;
   font-size: 18px;
   line-height: 130%;
-  color: #3D8D90;
+  color: #000;
   margin: 0 10px;
 }
 
@@ -2177,7 +2177,7 @@ button[type="button"]::focus {
 .footer__main {
   padding: 41px 80px;
   width: 660px;
-  background: #3D8D90;
+  background: #000;
   display: block;
   position: absolute;
   top: -60px;
@@ -2253,7 +2253,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 14px;
   line-height: 180%;
-  color: #071C27;
+  color: #000;
 }
 
 .page-news__title {
@@ -2291,7 +2291,7 @@ button[type="button"]::focus {
 }
 
 .page-news .tag__item {
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   display: inline-block;
   padding: 10px 20px;
   font-family: Noto Sans JP;
@@ -2299,7 +2299,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 18px;
   line-height: 100%;
-  color: #3D8D90;
+  color: #000;
   margin-right: 10px;
   background-color: #fff;
   -webkit-transition: all .3s;
@@ -2315,7 +2315,7 @@ button[type="button"]::focus {
 }
 
 .page-news .tag__item:hover {
-  background: #3D8D90;
+  background: #000;
   color: #fff;
 }
 
@@ -2415,7 +2415,7 @@ button[type="button"]::focus {
     opacity: 0.5;
   }
   .page-news__item:hover .item__title {
-    color: #3D8D90;
+    color: #000;
     text-decoration: underline;
   }
 }
@@ -2425,13 +2425,13 @@ button[type="button"]::focus {
   top: -14px;
   right: -10px;
   padding: 10px;
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 100%;
-  color: #3D8D90;
+  color: #000;
   background: #fff;
   z-index: 1;
 }
@@ -2512,7 +2512,7 @@ button[type="button"]::focus {
   line-height: 100%;
   color: #FFFFFF;
   padding: 5px 8px;
-  background: #3D8D90;
+  background: #000;
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -2534,7 +2534,7 @@ button[type="button"]::focus {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -2551,7 +2551,7 @@ button[type="button"]::focus {
   font-weight: 600;
   font-size: 16px;
   line-height: 160%;
-  color: #071C27;
+  color: #000;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -2624,7 +2624,7 @@ button[type="button"]::focus {
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -2642,7 +2642,7 @@ button[type="button"]::focus {
   font-size: 28px;
   line-height: 160%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 40px;
 }
 
@@ -2660,7 +2660,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 20px;
 }
 
@@ -2698,7 +2698,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin: 0;
   margin-top: 3px;
 }
@@ -2715,7 +2715,7 @@ button[type="button"]::focus {
   font-weight: bold;
   font-size: 32px;
   line-height: 180%;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -2733,9 +2733,9 @@ button[type="button"]::focus {
   font-size: 24px;
   line-height: 160%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   padding-bottom: 10px;
-  border-bottom: 2px solid #3D8D90;
+  border-bottom: 2px solid #000;
   margin-bottom: 20px;
 }
 
@@ -2793,7 +2793,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -2821,7 +2821,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -2832,7 +2832,7 @@ button[type="button"]::focus {
 
 .single-news__content ul li::before {
   content: "・";
-  color: #3D8D90;
+  color: #000;
   margin-right: 10px;
 }
 
@@ -2851,7 +2851,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   padding-left: 3px;
 }
 
@@ -2862,7 +2862,7 @@ button[type="button"]::focus {
 }
 
 .single-news__content ol li::marker {
-  color: #3D8D90;
+  color: #000;
 }
 
 .single-news__content blockquote {
@@ -2883,7 +2883,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -2924,7 +2924,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 160%;
   letter-spacing: 0.1em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 8px;
 }
 
@@ -2944,7 +2944,7 @@ button[type="button"]::focus {
   letter-spacing: 0.05em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #3D8D90;
+  color: #000;
   display: block;
 }
 
@@ -2974,7 +2974,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 160%;
   letter-spacing: 0.1em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -3047,7 +3047,7 @@ button[type="button"]::focus {
   font-size: 12px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -3062,7 +3062,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 14px;
   line-height: 160%;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -3156,7 +3156,7 @@ button[type="button"]::focus {
   font-weight: bold;
   font-size: 18px;
   line-height: 160%;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -3201,7 +3201,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 18px;
   line-height: 100%;
-  color: #071C27;
+  color: #000;
   border: 1px solid #344756;
   width: 146px;
   background: #fff;
@@ -3221,7 +3221,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 18px;
   line-height: 100%;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -3292,14 +3292,14 @@ button[type="button"]::focus {
 }
 
 .archive-works .search__buttons label span {
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   padding: 10px 20px;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 100%;
-  color: #3D8D90;
+  color: #000;
   background-color: #fff;
   display: inline-block;
 }
@@ -3312,7 +3312,7 @@ button[type="button"]::focus {
 }
 
 .archive-works .search__buttons label input:checked + span {
-  background-color: #3D8D90;
+  background-color: #000;
   color: #fff;
 }
 
@@ -3348,7 +3348,7 @@ button[type="button"]::focus {
   line-height: 100%;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #3D8D90;
+  color: #000;
   margin-right: 20px;
 }
 
@@ -3368,7 +3368,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   color: #fff;
-  background-color: #3D8D90;
+  background-color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -3425,7 +3425,7 @@ button[type="button"]::focus {
 
 @media screen and (min-width: 769px) {
   .archive-works .works__item:hover .item__title {
-    color: #3D8D90;
+    color: #000;
     text-decoration: underline;
   }
 }
@@ -3477,7 +3477,7 @@ button[type="button"]::focus {
   font-size: 12px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -3494,7 +3494,7 @@ button[type="button"]::focus {
   font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -3520,7 +3520,7 @@ button[type="button"]::focus {
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -3613,9 +3613,9 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 14px;
   line-height: 100%;
-  color: #3D8D90;
+  color: #000;
   padding: 10px 20px;
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   margin-right: 20px;
 }
 
@@ -3636,7 +3636,7 @@ button[type="button"]::focus {
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3657,7 +3657,7 @@ button[type="button"]::focus {
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-right: 5px;
 }
 
@@ -3675,7 +3675,7 @@ button[type="button"]::focus {
   font-size: 28px;
   line-height: 160%;
   letter-spacing: 0.1em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 40px;
 }
 
@@ -3777,7 +3777,7 @@ button[type="button"]::focus {
 }
 
 .single-works table tr {
-  border-top: 1px solid #C4DDDC;
+  border-top: 1px solid #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -3794,7 +3794,7 @@ button[type="button"]::focus {
 }
 
 .single-works table tr:last-child {
-  border-bottom: 1px solid #C4DDDC;
+  border-bottom: 1px solid #000;
 }
 
 .single-works table th {
@@ -3805,7 +3805,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 130%;
   letter-spacing: 0.2em;
-  color: #3D8D90;
+  color: #000;
   padding: 21px 0 21px 20px;
   text-align: left;
 }
@@ -3850,7 +3850,7 @@ button[type="button"]::focus {
 }
 
 .single-works .record__title {
-  background-color: #3D8D90;
+  background-color: #000;
   padding: 10px;
   font-family: Noto Sans JP;
   font-style: normal;
@@ -3970,7 +3970,7 @@ button[type="button"]::focus {
   line-height: 180%;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   text-align: center;
 }
 
@@ -3991,7 +3991,7 @@ button[type="button"]::focus {
 }
 
 .single-works .comment__title {
-  background-color: #3D8D90;
+  background-color: #000;
   padding: 10px;
   font-family: Noto Sans JP;
   font-style: normal;
@@ -4118,7 +4118,7 @@ button[type="button"]::focus {
   font-size: 12px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -4203,7 +4203,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 5px;
 }
 
@@ -4221,7 +4221,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -4241,7 +4241,7 @@ button[type="button"]::focus {
 }
 
 .single-works .spot__title {
-  background-color: #3D8D90;
+  background-color: #000;
   padding: 10px;
   font-family: Noto Sans JP;
   font-style: normal;
@@ -4356,7 +4356,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 5px;
 }
 
@@ -4374,7 +4374,7 @@ button[type="button"]::focus {
   font-size: 14px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -4403,11 +4403,11 @@ button[type="button"]::focus {
           align-items: center;
   text-align: center;
   letter-spacing: 0.1em;
-  color: #3D8D90;
+  color: #000;
   padding: 21px;
   width: 38.461538461538%;
   text-align: center;
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   display: block;
   margin: 0 auto;
 }
@@ -4457,7 +4457,7 @@ button[type="button"]::focus {
   line-height: 180%;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 40px;
 }
 
@@ -4477,7 +4477,7 @@ button[type="button"]::focus {
   line-height: 180%;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 80px;
 }
 
@@ -4500,8 +4500,8 @@ button[type="button"]::focus {
   line-height: 100%;
   text-align: center;
   letter-spacing: 0.1em;
-  color: #3D8D90;
-  border: 1px solid #3D8D90;
+  color: #000;
+  border: 1px solid #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -4628,7 +4628,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.1em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -4710,7 +4710,7 @@ button[type="button"]::focus {
   font-size: 36px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -4784,7 +4784,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -4874,7 +4874,7 @@ button[type="button"]::focus {
   font-size: 36px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -4945,7 +4945,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -5019,7 +5019,7 @@ button[type="button"]::focus {
   font-size: 36px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -5088,7 +5088,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -5160,7 +5160,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -5178,7 +5178,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -5194,7 +5194,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -5213,7 +5213,7 @@ button[type="button"]::focus {
 
 .page-csr__employee .employee__item .item__description span {
   font-size: 16px;
-  color: #3D8D90;
+  color: #000;
   margin-left: 5px;
 }
 
@@ -5309,7 +5309,7 @@ button[type="button"]::focus {
   font-size: 36px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -5327,7 +5327,7 @@ button[type="button"]::focus {
   font-size: 24px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -5421,7 +5421,7 @@ button[type="button"]::focus {
   line-height: 180%;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 9px;
 }
 
@@ -5440,7 +5440,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -5487,7 +5487,7 @@ button[type="button"]::focus {
 
 @media screen and (max-width: 768px) {
   .page-csr .sdgs img {
-    border: 1px solid #3D8D90;
+    border: 1px solid #000;
   }
 }
 
@@ -5498,7 +5498,7 @@ button[type="button"]::focus {
   font-size: 24px;
   line-height: 100%;
   color: #FFFFFF;
-  background: #3D8D90;
+  background: #000;
   padding: 27px 40px 26px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5588,7 +5588,7 @@ button[type="button"]::focus {
   content: '';
   width: 1px;
   height: 100px;
-  background: #C4DDDC;
+  background: #000;
   display: block;
   margin-bottom: 15px;
 }
@@ -5615,7 +5615,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0.3em;
-  color: #C4DDDC;
+  color: #000;
   margin-top: 7px;
 }
 
@@ -5653,13 +5653,13 @@ button[type="button"]::focus {
 .page-csr .sdgs .link__item {
   width: 31.578947368421%;
   padding: 34px 0 33px 0;
-  background: #C4DDDC;
+  background: #000;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 130%;
-  color: #071C27;
+  color: #000;
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -5694,7 +5694,7 @@ button[type="button"]::focus {
   line-height: 130%;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #3D8D90;
+  color: #000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -5720,7 +5720,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 18px;
   line-height: 130%;
-  color: #3D8D90;
+  color: #000;
   margin: 0 10px;
 }
 
@@ -5789,7 +5789,7 @@ button[type="button"]::focus {
   font-size: 24px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5817,7 +5817,7 @@ button[type="button"]::focus {
   height: 1px;
   width: 19.232%;
   min-width: 80px;
-  background-color: #3D8D90;
+  background-color: #000;
   display: inline-block;
   margin: 0 50px 0 20px;
 }
@@ -5835,7 +5835,7 @@ button[type="button"]::focus {
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5893,7 +5893,7 @@ button[type="button"]::focus {
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-right: 20px;
 }
 
@@ -5911,7 +5911,7 @@ button[type="button"]::focus {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-left: 30px;
 }
 
@@ -5959,7 +5959,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -5995,7 +5995,7 @@ button[type="button"]::focus {
 .page-contact .contact__form dd select {
   width: 100%;
   padding: 16px 15px;
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
@@ -6024,20 +6024,20 @@ button[type="button"]::focus {
 }
 
 .page-contact .contact__form dd select.select-option {
-  color: #071C27;
+  color: #000;
 }
 
 .page-contact .contact__form dd input, .page-contact .contact__form dd textarea {
   width: 100%;
   padding: 16px 15px;
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-appearance: none;
@@ -6091,7 +6091,7 @@ button[type="button"]::focus {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 24px;
-  color: #3D8D90;
+  color: #000;
   pointer-events: none;
 }
 
@@ -6208,7 +6208,7 @@ button[type="button"]::focus {
   line-height: 100%;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 .page-contact .contact__form .checkbox .first-label {
@@ -6228,7 +6228,7 @@ button[type="button"]::focus {
 }
 
 .page-contact .contact__form .wpcf7-submit {
-  background: #3D8D90;
+  background: #000;
   color: #fff;
   font-family: Roboto;
   font-style: normal;
@@ -6367,7 +6367,7 @@ button[type="button"]::focus {
   font-size: 32px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -6423,7 +6423,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
 }
 
 .page-company__lead .lead__image {
@@ -6505,7 +6505,7 @@ button[type="button"]::focus {
   font-size: 32px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -6523,7 +6523,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 223%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -6542,7 +6542,7 @@ button[type="button"]::focus {
   line-height: 180%;
   text-align: right;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   text-align: right;
 }
 
@@ -6596,7 +6596,7 @@ button[type="button"]::focus {
   display: inline-block;
   height: 1px;
   width: 39.234%;
-  background: #C4DDDC;
+  background: #000;
   position: absolute;
   top: 190px;
   right: 40px;
@@ -6652,7 +6652,7 @@ button[type="button"]::focus {
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -6667,7 +6667,7 @@ button[type="button"]::focus {
   height: 10px;
   border-radius: 50%;
   background: #fff;
-  border: solid 1px #3D8D90;
+  border: solid 1px #000;
   margin-right: 10px;
 }
 
@@ -6684,8 +6684,8 @@ button[type="button"]::focus {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #3D8D90;
-  border: solid 1px #3D8D90;
+  background: #000;
+  border: solid 1px #000;
   margin-right: 10px;
 }
 
@@ -6834,7 +6834,7 @@ button[type="button"]::focus {
   font-size: 24px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -6851,7 +6851,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -7017,7 +7017,7 @@ button[type="button"]::focus {
 }
 
 .page-company__profile .profile__content table tr {
-  border-top: 1px solid #C4DDDC;
+  border-top: 1px solid #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -7034,7 +7034,7 @@ button[type="button"]::focus {
 }
 
 .page-company__profile .profile__content table tr:nth-child(10) {
-  border-bottom: 1px solid #C4DDDC;
+  border-bottom: 1px solid #000;
   border-top: none;
 }
 
@@ -7055,7 +7055,7 @@ button[type="button"]::focus {
 }
 
 .page-company__profile .profile__content table tr:last-child {
-  border-bottom: 1px solid #C4DDDC;
+  border-bottom: 1px solid #000;
   border-top: none;
 }
 
@@ -7083,7 +7083,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 130%;
   letter-spacing: 0.2em;
-  color: #3D8D90;
+  color: #000;
   padding: 21px 0 21px 20px;
   text-align: left;
 }
@@ -7199,7 +7199,7 @@ button[type="button"]::focus {
 }
 
 .page-company__history .history__content table tr {
-  border-top: 1px solid #C4DDDC;
+  border-top: 1px solid #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -7216,7 +7216,7 @@ button[type="button"]::focus {
 }
 
 .page-company__history .history__content table tr:last-child {
-  border-bottom: 1px solid #C4DDDC;
+  border-bottom: 1px solid #000;
 }
 
 .page-company__history .history__content table th {
@@ -7227,7 +7227,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 130%;
   letter-spacing: 0.1em;
-  color: #3D8D90;
+  color: #000;
   padding: 21px 0 21px 20px;
   text-align: left;
 }
@@ -7367,7 +7367,7 @@ button[type="button"]::focus {
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -7491,7 +7491,7 @@ button[type="button"]::focus {
   content: '';
   width: 1px;
   height: 100px;
-  background: #C4DDDC;
+  background: #000;
   display: block;
   margin: 0 auto 15px;
 }
@@ -7536,7 +7536,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0.3em;
-  color: #C4DDDC;
+  color: #000;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
@@ -7615,7 +7615,7 @@ button[type="button"]::focus {
   font-weight: bold;
   font-size: 18px;
   line-height: 160%;
-  color: #3D8D90;
+  color: #000;
   margin-right: 48px;
 }
 
@@ -7661,7 +7661,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 18px;
   line-height: 100%;
-  color: #071C27;
+  color: #000;
   border: 1px solid #344756;
   width: 146px;
   background: #fff;
@@ -7681,7 +7681,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 18px;
   line-height: 100%;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -7752,14 +7752,14 @@ button[type="button"]::focus {
 }
 
 .archive-awards .search__buttons label span {
-  border: 1px solid #3D8D90;
+  border: 1px solid #000;
   padding: 10px 20px;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 100%;
-  color: #3D8D90;
+  color: #000;
   background-color: #fff;
   display: inline-block;
 }
@@ -7772,7 +7772,7 @@ button[type="button"]::focus {
 }
 
 .archive-awards .search__buttons label input:checked + span {
-  background-color: #3D8D90;
+  background-color: #000;
   color: #fff;
 }
 
@@ -7808,7 +7808,7 @@ button[type="button"]::focus {
   line-height: 100%;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #3D8D90;
+  color: #000;
   margin-right: 20px;
 }
 
@@ -7828,7 +7828,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 100%;
   color: #fff;
-  background-color: #3D8D90;
+  background-color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -7911,7 +7911,7 @@ button[type="button"]::focus {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #C4DDDC;
+  background: #000;
   padding: 5px;
   display: inline-block;
   font-family: Noto Sans JP;
@@ -7920,7 +7920,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -7937,7 +7937,7 @@ button[type="button"]::focus {
   font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -7957,7 +7957,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 12px;
   line-height: 130%;
-  color: #071C27;
+  color: #000;
   margin-bottom: 5px;
 }
 
@@ -7976,7 +7976,7 @@ button[type="button"]::focus {
   font-size: 12px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   width: 60px;
   margin-right: 10px;
 }
@@ -8032,7 +8032,7 @@ button[type="button"]::focus {
   font-size: 48px;
   line-height: 130%;
   letter-spacing: 0.1em;
-  color: #3D8D90;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -8046,7 +8046,7 @@ button[type="button"]::focus {
   content: '';
   width: 20px;
   margin-right: 20px;
-  background: #C4DDDC;
+  background: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -8063,7 +8063,7 @@ button[type="button"]::focus {
   font-size: 20px;
   line-height: 180%;
   letter-spacing: 0.1em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -8081,7 +8081,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -8097,7 +8097,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -8115,7 +8115,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -8207,7 +8207,7 @@ button[type="button"]::focus {
   font-size: 3.733vw;
   line-height: 100%;
   letter-spacing: 0.3em;
-  color: #B5E366;
+  color: #344756;
   margin-left: 5.333vw;
 }
 
@@ -8220,7 +8220,7 @@ button[type="button"]::focus {
   font-size: 6.4vw;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8264,7 +8264,7 @@ button[type="button"]::focus {
 .sp-menu .content__tel::before {
   font-family: 'Material Icons';
   content: '\e61d';
-  color: #B5E366;
+  color: #344756;
   width: 6.4vw;
   margin-right: 5.333vw;
 }
@@ -8405,7 +8405,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 60px;
 }
 
@@ -8479,7 +8479,7 @@ button[type="button"]::focus {
   font-weight: normal;
   font-size: 14px;
   line-height: 160%;
-  color: #071C27;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -8495,7 +8495,7 @@ button[type="button"]::focus {
   font-size: 16px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -8531,7 +8531,7 @@ button[type="button"]::focus {
   font-size: 36px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #3D8D90;
+  color: #000;
   margin-bottom: 9px;
 }
 
@@ -8549,7 +8549,7 @@ button[type="button"]::focus {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0.05em;
-  color: #071C27;
+  color: #000;
   margin-bottom: 26px;
 }
 
