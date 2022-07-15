@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <!-- material icon -->
     <link
       href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
@@ -32,6 +31,7 @@
     <meta name="twitter:image" content="山口断熱です" />
     <meta name="twitter:title" content="山口断熱" />
     <meta name="twitter:description" content="山口断熱です" />
+    <meta name="robots" content="noindex" />
     <!-- スタイル -->
     <link rel="stylesheet" href="/src/style.css" />
     <!-- js -->
@@ -71,20 +71,8 @@
           </li>
           <li class="pc-header__item item">
             <a href="#"
-              ><span class="item__ja">表彰一覧</span
-              ><span class="item__en">Awards</span></a
-            >
-          </li>
-          <li class="pc-header__item item">
-            <a href="#"
               ><span class="item__ja">お知らせ</span
               ><span class="item__en">News</span></a
-            >
-          </li>
-          <li class="pc-header__item item">
-            <a href="#"
-              ><span class="item__ja">CSR活動</span
-              ><span class="item__en">CSR</span></a
             >
           </li>
         </ul>
@@ -98,7 +86,7 @@
     <header class="sp-header sp">
       <h1 class="sp-header__logo">
         <a href="/"
-          ><img src="/images/logo-sp.svg" alt="株式会社 山口断熱"
+          ><img src="/images/logo.png" alt="株式会社 山口断熱"
         /></a>
       </h1>
       <nav class="sp-header__nav">
@@ -131,13 +119,7 @@
               <a href="#">施工実績<span>Works</span></a>
             </li>
             <li class="nav__item">
-              <a href="#">表彰一覧<span>Awards</span></a>
-            </li>
-            <li class="nav__item">
               <a href="#">お知らせ<span>News</span></a>
-            </li>
-            <li class="nav__item">
-              <a href="#">CSR活動<span>CSR</span></a>
             </li>
           </ul>
         </nav>
@@ -151,16 +133,23 @@
       <div class="home">
         <div class="top">
           <div class="top__container">
-            <div class="top__logo">
+            <!-- <div class="top__logo">
               <img src="/images/top__logo.png" alt="" />
-            </div>
-            <video
+            </div> -->
+            <!-- <video class="pc"
               src="/images/top__movie.mov"
               autoplay
               loop
               muted
               playsinline
             ></video>
+            <video class="sp"
+              src="/images/top__movie-sp.mov"
+              autoplay
+              loop
+              muted
+              playsinline
+            ></video> -->
             <div class="top__text"></div>
           </div>
         </div>
@@ -276,12 +265,12 @@
             <div class="about__lead">
               やまこーのやまこーによる<br />
               やまこーのための<br />
-              調和の取れたやまこーを目指して
+              調和の取れた<br class="sp">やまこーを目指して
             </div>
             <div class="about__text">
-              株式会社山口組は鹿児島県薩摩川内市を拠点とする総合建設会社です。<br />
+              株式会社山口組は鹿児島県薩摩川内市を<br class="sp">拠点とする総合建設会社です。<br />
               暑いから明日は休んで釣りにーいこー！！<br />
-              そのくらいノリの軽い会社を目指しております
+              そのくらいノリの軽い会社を<br class="sp">目指しております
             </div>
           </div>
           <div class="button">
@@ -301,7 +290,7 @@
                   </div>
                 </div>
                 <div class="service__lead">
-                  企業様の断熱設備に関して、<br />
+                  企業様の<br class="sp">断熱設備に関して、<br />
                   どこよりも満足度の高い<br />
                   施工を行なっております
                 </div>
@@ -481,7 +470,7 @@
                 <div class="csr__content">
                   <div class="csr__lead-container">
                     <div class="csr__lead">
-                      小野明組は<br />社会貢献活動にも積極的に取り組んでいます。
+                      山口組は<br />釣り部も盛んです
                     </div>
                     <img src="/images/top__csr-logo.svg" alt="" />
                   </div>
@@ -510,31 +499,12 @@
                 <img src="/images/top__csr-02.jpg" alt="" />
                 <img src="/images/top__csr-01.jpg" alt="" />
               </div>
-              <div class="csr__description description">
-                <img src="/images/top__csr-icon.svg" alt="" />
-                <div class="description__text">
-                  <div class="description__title">
-                    地域の環境と社会の幸福のために
-                  </div>
-                  <div class="description__content">
-                    小野明組では、地域貢献活動と豊かな環境の保全活動を通して、地域の皆様とのつながりを大切にしたいと考えております。<br />
-                    環境保全や清掃活動、防災訓練など様々な地域活動に参加しているほか、従業員の満足度を上げ、より良質なサービスをお客様に提供できるための活動も積極的に行っています。
-                  </div>
-                </div>
-              </div>
             </div>
             <div class="button">
-              <a href="#" class="button__text">CSR活動について詳しく見る</a>
+              <a href="#" class="button__text">釣りの記録を見る</a>
             </div>
           </div>
         </div>
-        <a href="#" class="sdgs fade-up">
-          <img class="pc" src="/images/top__sdgs.jpg" alt="" />
-          <img class="sp" src="/images/top__sdgs-sp.jpg" alt="" />
-          <div class="sdgs__link">
-            小野明組のSDGsへの取り組みについてはこちらをご覧ください
-          </div>
-        </a>
         <div class="link fade-up">
           <div class="link__container">
             <div class="link__inner">
@@ -582,7 +552,7 @@
     <footer class="footer">
       <div class="footer__container">
         <div class="footer__main">
-          <h2 class="footer__company">株式会社小野明組</h2>
+          <h2 class="footer__company">株式会社山口断熱</h2>
           <p>
             鹿児島県薩摩川内市高江町<br class="sp" />
             (<a
@@ -598,8 +568,7 @@
         </div>
       </div>
       <div class="footer__image sp">
-        <img src="/images/sdgs__footer.jpeg" alt="" />
-        <img src="/images/footer__image-sp.jpg" alt="" />
+        <img src="/images/top__about-bg.png" alt="" />
       </div>
       <div class="footer__copyright">Copyright © 株式会社山口断熱</div>
     </footer>

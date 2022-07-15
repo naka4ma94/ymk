@@ -106,7 +106,7 @@ main {
 @media screen and (min-width: 769px) {
   .button__text:hover {
     color: #fff;
-    background-color: rgba(61, 141, 144, 0.3);
+    background-color: rgba(217, 217, 217, 0.3);
   }
   .button__text:hover::before {
     width: 100%;
@@ -310,7 +310,7 @@ main {
 }
 
 .pc-header__nav {
-  width: 897px;
+  width: 618px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,7 +321,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 77.951%;
+  width: 67.961%;
 }
 
 .pc-header__list .item > a {
@@ -411,7 +411,7 @@ main {
 
 @media screen and (min-width: 769px) {
   .pc-header__link:hover {
-    background: #70C97C;
+    background: #d9d9d9;
   }
 }
 
@@ -599,7 +599,7 @@ main {
   width: 100%;
   min-height: calc( 100vh - 80px);
   overflow: hidden;
-  background: url(../images/top__bg.jpg);
+  background: url(../images/top__bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -609,6 +609,10 @@ main {
   .home .top__container {
     min-height: calc( 100vh - 15.995vw);
     min-height: calc(var(--vh, 1vh) * 100 - 15.995vw);
+    background: url(../images/top__bg-sp.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 
@@ -983,9 +987,9 @@ main {
 .home .about {
   text-align: center;
   padding: 120px 0 122px 0;
-  background: url(../images/top__about-bg.jpg) no-repeat center;
+  background: url(../images/top__about.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   opacity: 0;
 }
 
@@ -1225,13 +1229,15 @@ main {
 
 .home .works {
   opacity: 0;
-  background: url(../images/top__works-bg.jpg) no-repeat 0 16%;
+  background: url(../images/wokrs__bg.jpeg);
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .home .works {
-    background: url(../images/top__works-sp.jpg);
+    background: url(../images/wokrs__bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -1698,6 +1704,8 @@ main {
 
 .home .csr__image img {
   width: 49.12280701754386%;
+  /* height: 420px;
+  object-fit: cover; */
 }
 
 @media screen and (max-width: 768px) {
@@ -2149,9 +2157,9 @@ button[type="button"]::focus {
 }
 
 .footer__container {
-  background: url(../images/footer__bg.jpg) no-repeat center;
+  background: url(../images/top__about-bg.png) no-repeat center;
   background-size: cover;
-  height: 340px;
+  height: 600px;
   position: relative;
 }
 
@@ -2754,7 +2762,7 @@ button[type="button"]::focus {
   font-size: 20px;
   line-height: 160%;
   letter-spacing: 0.05em;
-  color: #70C97C;
+  color: #d9d9d9;
   margin-bottom: 20px;
 }
 
@@ -8147,7 +8155,7 @@ button[type="button"]::focus {
   height: 100%;
   overflow: auto;
   z-index: 100;
-  background: url(../images/sp-menu__bg.jpg);
+  background: url(../images/wokrs__bg.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -8182,7 +8190,7 @@ button[type="button"]::focus {
   font-size: 6.4vw;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8232,6 +8240,7 @@ button[type="button"]::focus {
           justify-content: center;
   background: #fff;
   margin-bottom: 20px;
+  border: #000 1px solid;
 }
 
 .sp-menu .content__contact::before {
@@ -8248,7 +8257,7 @@ button[type="button"]::focus {
   font-size: 6.4vw;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8276,7 +8285,7 @@ button[type="button"]::focus {
   font-size: 3.733vw;
   line-height: 100%;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #000;
   text-align: center;
   margin-bottom: 5.333vw;
 }
@@ -8289,7 +8298,7 @@ button[type="button"]::focus {
   line-height: 180%;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #FFFFFF;
+  color: #000;
   display: block;
   text-align: center;
   margin-bottom: 26.667vw;
@@ -8322,7 +8331,7 @@ button[type="button"]::focus {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(61, 141, 144, 0.5);
+    background-color: rgba(217, 217, 217, 0.3);
     background-blend-mode: lighten;
     z-index: -1;
   }
