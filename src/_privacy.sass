@@ -1,0 +1,88 @@
+.page-privacy
+	&__container
+		width: 86.1111%
+		max-width: 1240px
+		margin: 0 auto
+		padding: 100px 0 160px
+		@media screen and (max-width: $spBreakPoint)
+			width: 89.333vw
+			padding: 8vw 0 21.333vw
+	&__title
+		display: flex
+		margin-bottom: 100px
+		@media screen and (max-width: $spBreakPoint)
+			margin-bottom: 8vw
+		& .title
+			&__text
+				padding: 9px 0
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 48px
+				line-height: 130%
+				letter-spacing: 0.1em
+				color: #3D8D90
+				@media screen and (max-width: $spBreakPoint)
+					padding: 1.2vw 0
+					font-size: 6.4vw
+		&::before
+			content: ''
+			width: 20px
+			margin-right: 20px
+			background: #C4DDDC
+			@media screen and (max-width: $spBreakPoint)
+				margin-right: 5.333vw
+				width: 2.667vw
+	&__content
+		& .content
+			&__lead
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: bold
+				font-size: 20px
+				line-height: 180%
+				letter-spacing: 0.1em
+				color: #3D8D90
+				margin-bottom: 10px
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 4.8vw
+					margin-bottom: 2.667vw
+			&__description
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: normal
+				font-size: 16px
+				line-height: 180%
+				letter-spacing: 0.05em
+				color: #071C27
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 4.267vw
+				a
+					font-family: Noto Sans JP
+					font-style: normal
+					font-weight: normal
+					font-size: 16px
+					line-height: 180%
+					letter-spacing: 0.05em
+					color: #3D8D90
+					text-decoration: underline
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 4.267vw
+			&__contact
+				margin-top: 30px
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: normal
+				font-size: 16px
+				line-height: 180%
+				letter-spacing: 0.05em
+				color: #071C27
+				@media screen and (max-width: $spBreakPoint)
+					margin-top: 8vw
+					font-size: 4.267vw
+				span
+					font-weight: bold
+	&__content + .page-privacy__content
+		margin-top: 40px
+		@media screen and (max-width: $spBreakPoint)
+			margin-top: 8vw

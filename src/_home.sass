@@ -1,0 +1,878 @@
+.home
+	.top
+		margin-bottom: 80px
+		@media screen and (max-width: $spBreakPoint)
+			margin-bottom: 0
+		&__container
+			position: relative
+			width: 100%
+			min-height: calc( 100vh - 80px )
+			overflow: hidden
+			background: url(./images/top__bg.jpg)
+			background-repeat: no-repeat
+			background-position: center
+			background-size: cover
+			@media screen and (max-width: $spBreakPoint)
+				min-height: calc( 100vh - 15.995vw )
+				min-height: calc(var(--vh, 1vh) * 100 - 15.995vw)
+			video
+				position: absolute
+				width: auto
+				height: auto
+				min-width: 100%
+				min-height: 100%
+				top: 0
+				left: 50%
+				transform: translateX(-50%)
+		&__logo
+			position: absolute
+			top: 3.8%
+			left: 6.97%
+			width: 575px
+			z-index: 1
+			@media screen and (max-width: $spBreakPoint)
+				width: 71.733vw
+				top: 8vw
+				left: 22.933vw
+		&__text
+			position: absolute
+			bottom: 6.5%
+			right: 7%
+			font-family: Shippori Mincho B1
+			font-style: normal
+			font-weight: 600
+			font-size: 64px
+			line-height: 140%
+			color: #FFFFFF
+			z-index: 1
+			text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5)
+			@media screen and (max-width: $spBreakPoint)
+				font-size: 11.2vw
+	.news
+		opacity: 0
+		&__container
+			padding: 120px 0
+			position: relative
+			@media screen and (max-width: $spBreakPoint)
+				padding: 0 0 15.2vw
+		&__list
+			max-width: 1240px
+			width: 86.111%
+			margin: 0 auto
+			padding-left: 100px
+			position: relative
+			margin-bottom: 60px
+			@media screen and (max-width: $spBreakPoint)
+				width: 89.333333333333%
+				padding-left: 0
+				margin-bottom: 8vw
+				display: flex
+				justify-content: space-between
+			.item
+				&__new
+					position: absolute
+					top: -14px
+					right: -10px
+					padding: 10px
+					border: 1px solid #3D8D90
+					font-family: Noto Sans JP
+					font-style: normal
+					font-weight: normal
+					font-size: 12px
+					line-height: 100%
+					color: #3D8D90
+					background: #fff
+					z-index: 1
+					@media screen and (max-width: $spBreakPoint)
+						position: static
+						font-size: 2.667vw
+						padding: 0.8vw 1.333vw
+						display: inline-block
+						margin-left: 2.667vw
+				&__thumbnail
+					margin-bottom: 10px
+					width: 100%
+					padding-top: 68.75%
+					transition: all 0.3s
+					position: relative
+					@media screen and (max-width: $spBreakPoint)
+						margin-bottom: 0
+						width: 21.333vw
+						height: 21.333vw
+						padding-top: 0
+						background-size: cover !important
+					&::after
+						content: ""
+						width: 100%
+						height: 100%
+						background-color: #fff
+						opacity: 0
+						display: block
+						position: absolute
+						top: 0
+						left: 0
+						z-index: 0
+						transition: all 0.3s
+				&__content
+					@media screen and (max-width: $spBreakPoint)
+						width: 43.2vw
+				&__date-category
+					display: flex
+					align-items: center
+					flex-wrap: wrap
+					@media screen and (max-width: $spBreakPoint)
+						display: block
+				&__category
+					font-family: Noto Sans JP
+					font-style: normal
+					font-weight: normal
+					font-size: 12px
+					line-height: 100%
+					color: #FFFFFF
+					padding: 5px 8px
+					background: #3D8D90
+					margin-right: 10px
+					margin-bottom: 10px
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 3.2vw
+						padding: 1.333vw 2.133vw
+						display: inline-block
+						margin-right: 0
+						margin-bottom: 2.667vw
+				&__date
+					font-family: Shippori Mincho B1
+					font-style: normal
+					font-weight: 600
+					font-size: 14px
+					line-height: 100%
+					letter-spacing: 0.05em
+					color: #3D8D90
+					margin-bottom: 10px
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 3.2vw
+						margin-bottom: 2.667vw
+				&__title
+					font-family: Shippori Mincho B1
+					font-style: normal
+					font-weight: 600
+					font-size: 16px
+					line-height: 160%
+					color: #071C27
+					display: -webkit-box
+					-webkit-line-clamp: 2
+					-webkit-box-orient: vertical
+					overflow: hidden
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 3.2vw
+			.title
+				&__ja
+					font-family: Shippori Mincho B1
+					font-style: normal
+					font-weight: 600
+					font-size: 40px
+					letter-spacing: 0.3em
+					color: #344756
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 8vw
+				&__en
+					font-family: Shippori Mincho B1
+					font-style: normal
+					font-weight: 600
+					font-size: 16px
+					line-height: 160%
+					letter-spacing: 0.3em
+					color: #C4DDDC
+					margin-top: 7px
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 4.267vw
+			// .news__item:nth-child(1) .item__new
+			// 	display: block
+		&__title
+			writing-mode: vertical-rl
+			position: absolute
+			top: -120px
+			left: -41px
+			display: flex
+			align-items: center
+			@media screen and (max-width: $spBreakPoint)
+				position: static
+				margin-left: -2.667vw
+			&::before
+				content: ''
+				width: 1px
+				height: 100px
+				background: #C4DDDC
+				display: block
+				margin-bottom: 15px
+				@media screen and (max-width: $spBreakPoint)
+					height: 16vw
+		&__main
+			display: flex
+			justify-content: space-between
+			@media screen and (max-width: $spBreakPoint)
+				display: block
+				width: 67.2vw
+				margin-top: 8.8vw
+		&__item
+			width: 21.052631578947%
+			display: block
+			position: relative
+			@media screen and (max-width: $spBreakPoint)
+				display: flex
+				width: 100%
+				justify-content: space-between
+			img
+				width: 100%
+			.no-thumbnail
+				background: url(./images/no-thumbnail.jpg) no-repeat center
+				background-size: 100%
+				@media screen and (max-width: $spBreakPoint)
+					background: url(./images/no-thumbnail-sp.jpg) no-repeat center
+					background-size: 100%
+			@media screen and (min-width: 769px)
+				&:hover
+					.item__thumbnail
+						background-size: 120% !important
+						&::after
+							opacity: 0.5
+					.item__title
+						color: #3D8D90
+						text-decoration: underline
+		&__item + .news__item
+			@media screen and (max-width: $spBreakPoint)
+				margin-top: 5.333vw
+	.about
+		text-align: center
+		padding: 120px 0 122px 0
+		background: url(./images/top__about-bg.jpg) no-repeat center
+		background-size: cover
+		background-attachment: fixed
+		opacity: 0
+		@media screen and (max-width: $spBreakPoint)
+			padding: 21.333vw 0
+		&__container
+			@media screen and (max-width: $spBreakPoint)
+				width: 89.333333333333%
+				margin: 0 auto
+		&__lead
+			font-family: Shippori Mincho B1
+			font-style: normal
+			font-weight: 600
+			font-size: 42px
+			line-height: 180%
+			letter-spacing: 0.05em
+			color: #3D8D90
+			margin-bottom: 30px
+			@media screen and (max-width: $spBreakPoint)
+				font-size: 6.4vw
+				margin-bottom: 8vw
+		&__text
+			font-family: Shippori Mincho B1
+			font-style: normal
+			font-weight: 600
+			font-size: 18px
+			line-height: 200%
+			letter-spacing: 0.05em
+			color: #344756
+			margin-bottom: 60px
+			@media screen and (max-width: $spBreakPoint)
+				font-size: 4.267vw
+				margin-bottom: 10.667vw
+	.service
+		background: #fff
+		opacity: 0
+		&__container
+			padding: 100px 0 121px 0
+			@media screen and (max-width: $spBreakPoint)
+				padding: 0 0 15.2vw
+		&__inner
+			max-width: 1240px
+			width: 86.111%
+			margin: 0 auto
+			padding-left: 100px
+			position: relative
+			margin-bottom: 40px
+			@media screen and (max-width: $spBreakPoint)
+				width: 89.333333333333%
+				padding-left: 0
+				margin-bottom: 6.4vw
+		&__title-lead
+			display: flex
+			justify-content: space-between
+			margin-bottom: 10.667vw
+		&__title
+			writing-mode: vertical-rl
+			position: absolute
+			top: -120px
+			left: -41px
+			display: flex
+			align-items: center
+			@media screen and (max-width: $spBreakPoint)
+				position: static
+				margin-left: -2.667vw
+			&::before
+				content: ''
+				width: 1px
+				height: 100px
+				background: #C4DDDC
+				display: block
+				margin-bottom: 15px
+				@media screen and (max-width: $spBreakPoint)
+					height: 16vw
+		.title
+			&__ja
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 40px
+				letter-spacing: 0.3em
+				color: #344756
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 8vw
+			&__en
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 16px
+				line-height: 160%
+				letter-spacing: 0.3em
+				color: #C4DDDC
+				margin-top: 7px
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 4.267vw
+		&__lead
+			font-family: Shippori Mincho B1
+			font-style: normal
+			font-weight: 600
+			font-size: 36px
+			line-height: 180%
+			letter-spacing: 0.05em
+			color: #344756
+			margin-bottom: 40px
+			width: 79.824561403509%
+			@media screen and (max-width: $spBreakPoint)
+				font-size: 5.333vw
+				width: 67.2vw
+				margin-bottom: 0
+				margin-top: 16vw
+		&__image-container
+			position: relative
+			@media screen and (max-width: $spBreakPoint)
+				width: 100vw
+				margin: 0 calc(50% - 50vw)
+		&__image
+			width: 100%
+			margin-bottom: 40px
+			@media screen and (max-width: $spBreakPoint)
+				margin-bottom: 5.333vw
+		&__logo
+			position: absolute
+			top: -58%
+			right: 0
+			width: 20.175438596491%
+			@media screen and (max-width: $spBreakPoint)
+				width: 27.2vw
+				top: -46%
+				right: 21px
+		&__text
+			font-family: Shippori Mincho B1
+			font-style: normal
+			font-weight: 600
+			font-size: 18px
+			line-height: 200%
+			letter-spacing: 0.05em
+			color: #344756
+			@media screen and (max-width: $spBreakPoint)
+				font-size: 4.267vw
+	.works
+		opacity: 0
+		background: url(./images/top__works-bg.jpg) no-repeat 0 16%
+		background-size: cover
+		@media screen and (max-width: $spBreakPoint)
+			background: url(./images/top__works-sp.jpg)
+			background-repeat: no-repeat
+			background-size: cover
+			background-position: top
+		&__container
+			padding: 100px 0
+			overflow: hidden
+			@media screen and (max-width: $spBreakPoint)
+				padding: 18.667vw 0
+		&__inner
+			max-width: 1240px
+			width: 86.111%
+			margin: 0 auto
+			padding-left: 100px
+			position: relative
+			margin-bottom: 40px
+			@media screen and (max-width: $spBreakPoint)
+				padding: 0
+				margin-bottom: 16.267vw
+		&__title
+			writing-mode: vertical-rl
+			position: absolute
+			top: -120px
+			left: -41px
+			display: flex
+			align-items: center
+			@media screen and (max-width: $spBreakPoint)
+				position: static
+				display: block
+				margin: 0 auto 50px
+			&::before
+				content: ''
+				width: 1px
+				height: 100px
+				background: #C4DDDC
+				display: block
+				margin-bottom: 15px
+				@media screen and (max-width: $spBreakPoint)
+					display: none
+		.title
+			&__container
+			&__ja
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 40px
+				letter-spacing: 0.3em
+				color: #344756
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 8vw
+			&__en
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 16px
+				line-height: 160%
+				letter-spacing: 0.3em
+				color: #C4DDDC
+				margin-top: 7px
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 4.267vw
+		&__list
+			.slick-list
+				width: 142%
+				@media screen and (max-width: $spBreakPoint)
+					width: 296.5%
+			.slick-prev
+				top: 40%
+				left: -4px
+				z-index: 5
+				width: auto
+				height: auto
+				&::before
+					font-family: 'Material Icons Round'
+					content: "\e408"
+					font-size: 44px
+					opacity: 1
+					filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25)) drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.4)) drop-shadow(0px 0px 10px rgba(211, 231, 233, 0.25))
+					@media screen and (max-width: $spBreakPoint)
+						display: none
+			.slick-next
+				top: 40%
+				right: -6%
+				width: auto
+				height: auto
+				&::before
+					font-family: 'Material Icons Round'
+					content: "\e409"
+					font-size: 44px
+					opacity: 1
+					filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25)) drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.4)) drop-shadow(0px 0px 10px rgba(211, 231, 233, 0.25))
+					@media screen and (max-width: $spBreakPoint)
+						display: none
+		&__item
+			margin-right: 40px
+			@media screen and (max-width: $spBreakPoint)
+				margin-right: 5.333vw
+		.item
+			&__image
+				margin-bottom: 15px
+				position: relative
+				@media screen and (max-width: $spBreakPoint)
+					margin-bottom: 2.667vw
+				.no-thumbnail
+					background: url(./images/no-thumbnail.jpg)
+					background-size: cover
+					background-position: center
+					background-repeat: no-repeat
+					@media screen and (max-width: $spBreakPoint)
+						background: url(./images/no-thumbnail-sp.jpg)
+						background-size: cover
+						background-position: center
+						background-repeat: no-repeat
+			&__thumbnail
+				width: 100%
+				padding-top: 76%
+				@media screen and (max-width: $spBreakPoint)
+					padding-top: 80.66666666666667%
+			&__category
+				position: absolute
+				bottom: 0
+				left: 0
+				background: #3D8D90
+				padding: 15px 20px
+				display: inline-block
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: normal
+				font-size: 16px
+				line-height: 100%
+				letter-spacing: 0.05em
+				color: #FFFFFF
+				@media screen and (max-width: $spBreakPoint)
+					padding: 2.667vw
+					font-size: 3.733vw
+			&__title
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 20px
+				line-height: 130%
+				letter-spacing: 0.05em
+				color: #071C27
+				margin-bottom: 10px
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 4.267vw
+					margin-bottom: 1.333vw
+			&__location
+				display: flex
+				align-items: center
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 14px
+				line-height: 130%
+				letter-spacing: 0.05em
+				color: #071C27
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 3.2vw
+				img
+					margin-right: 5px
+					@media screen and (max-width: $spBreakPoint)
+						width: 2.667vw
+	.csr
+		opacity: 0
+		&__container
+			padding: 100px 0
+			@media screen and (max-width: $spBreakPoint)
+				padding: 0 0 18.667vw
+		&__inner
+			max-width: 1240px
+			width: 86.111%
+			margin: 0 auto
+			padding-left: 100px
+			position: relative
+			margin-bottom: 40px
+			@media screen and (max-width: $spBreakPoint)
+				padding-left: 0
+				margin-bottom: 10.667vw
+				width: 89.333333333333%
+		&__main
+			@media screen and (max-width: $spBreakPoint)
+				display: flex
+				justify-content: space-between
+		&__title
+			writing-mode: vertical-rl
+			position: absolute
+			top: -100px
+			left: -41px
+			display: flex
+			align-items: center
+			@media screen and (max-width: $spBreakPoint)
+				position: static
+				margin-left: -2.667vw
+			&::before
+				content: ''
+				width: 1px
+				height: 100px
+				background: #C4DDDC
+				display: block
+				margin-bottom: 15px
+				@media screen and (max-width: $spBreakPoint)
+					height: 16vw
+		.title
+			&__ja
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 40px
+				letter-spacing: 0.3em
+				color: #344756
+				text-orientation: upright
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 8vw
+			&__en
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 16px
+				line-height: 160%
+				letter-spacing: 0.3em
+				color: #C4DDDC
+				margin-top: 7px
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 4.267vw
+		&__content
+			@media screen and (max-width: $spBreakPoint)
+				width: 67.2vw
+				margin-top: 16vw
+		&__lead-container
+			display: flex
+			justify-content: space-between
+			margin-bottom: 40px
+			@media screen and (max-width: $spBreakPoint)
+				display: block
+				position: relative
+				margin-bottom: 5.333vw
+			img
+				width: 26.052631578947%
+				margin-bottom: -20px
+				@media screen and (max-width: $spBreakPoint)
+					position: absolute
+					top: 0
+					right: 0
+					width: 36vw
+		&__lead
+			font-family: Shippori Mincho B1
+			font-style: normal
+			font-weight: 600
+			font-size: 36px
+			line-height: 180%
+			letter-spacing: 0.05em
+			color: #344756
+			width: 69.7%
+			@media screen and (max-width: $spBreakPoint)
+				width: 100%
+				font-size: 5.333vw
+		&__image
+			display: flex
+			justify-content: space-between
+			margin-bottom: 40px
+			@media screen and (max-width: $spBreakPoint)
+				display: block
+			img
+				width: 49.12280701754386%
+				@media screen and (max-width: $spBreakPoint)
+					width: 100%
+			img + img
+				@media screen and (max-width: $spBreakPoint)
+					margin-top: 20px
+		&__description
+			margin-bottom: 40px
+			display: flex
+			justify-content: space-between
+			align-items: center
+			@media screen and (max-width: $spBreakPoint)
+				display: block
+			img
+				width: 33.421052631579%
+				@media screen and (max-width: $spBreakPoint)
+					width: 88.267vw
+					margin-bottom: 5.333vw
+		.description
+			&__text
+				width: 59.736842105263%
+				@media screen and (max-width: $spBreakPoint)
+					width: 100%
+			&__title
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 28px
+				line-height: 180%
+				letter-spacing: 0.05em
+				color: #071C27
+				margin-bottom: 20px
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 8.533vw
+					margin-bottom: 5.333vw
+			&__content
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: normal
+				font-size: 18px
+				line-height: 180%
+				letter-spacing: 0.1em
+				color: #071C27
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 4.267vw
+	.sdgs
+		width: 72.222%
+		max-width: 1040px
+		margin: 0 auto 100px
+		display: block
+		@media screen and (max-width: $spBreakPoint)
+			width: 89.333vw
+			margin-bottom: 21.333vw
+		img
+			width: 100%
+			@media screen and (max-width: $spBreakPoint)
+				border: 1px solid #3D8D90
+		&__link
+			font-family: Shippori Mincho B1
+			font-style: normal
+			font-weight: 600
+			font-size: 24px
+			line-height: 100%
+			color: #FFFFFF
+			background: #3D8D90
+			padding: 27px 40px 26px
+			display: flex
+			justify-content: space-between
+			align-items: center
+			margin-top: -1px
+			@media screen and (max-width: $spBreakPoint)
+				font-size: 4.8vw
+				line-height: 140%
+				padding: 5.333vw
+				display: block
+			&::after
+				font-family: 'Material Icons'
+				content: 'arrow_forward'
+				color: #FFFFFFFF
+	.link
+		opacity: 0
+		&__container
+			padding: 100px 0 0 0
+			max-width: 1440px
+			width: 100%
+			margin: 0 auto
+			background: url(./images/top__link-logo.svg)
+			background-position: bottom 43px right 0
+			background-repeat: no-repeat
+			@media screen and (max-width: $spBreakPoint)
+				background: url(./images/top__link-logo.svg)
+				background-position: top left
+				background-repeat: no-repeat
+				background-size: 90%
+				padding: 0
+				width: auto
+				margin: 0
+		&__inner
+			max-width: 1240px
+			width: 86.111%
+			margin: 0 auto
+			padding-left: 100px
+			padding-bottom: 273px
+			position: relative
+			@media screen and (max-width: $spBreakPoint)
+				padding-left: 0
+				display: flex
+				justify-content: space-between
+				width: 89.333333333333%
+				padding-bottom: 16vw
+		&__title
+			writing-mode: vertical-rl
+			position: absolute
+			top: -100px
+			left: -41px
+			display: flex
+			align-items: center
+			@media screen and (max-width: $spBreakPoint)
+				position: static
+			&::before
+				content: ''
+				width: 1px
+				height: 100px
+				background: #C4DDDC
+				display: block
+				margin-bottom: 15px
+		.title
+			&__ja
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 40px
+				letter-spacing: 0.3em
+				color: #344756
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 8vw
+			&__en
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 16px
+				line-height: 160%
+				letter-spacing: 0.3em
+				color: #C4DDDC
+				margin-top: 7px
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 4.267vw
+		&__main
+			@media screen and (max-width: $spBreakPoint)
+				width: 67.2vw
+				margin-top: 16vw
+		&__list
+			display: flex
+			justify-content: space-between
+			flex-wrap: wrap
+			margin-bottom: 52px
+			@media screen and (max-width: $spBreakPoint)
+				display: block
+		&__item
+			width: 31.578947368421%
+			padding: 34px 0 33px 0
+			background: #C4DDDC
+			font-family: Noto Sans JP
+			font-style: normal
+			font-weight: normal
+			font-size: 18px
+			line-height: 130%
+			color: #071C27
+			text-align: center
+			transition: all 0.3s
+			@media screen and (max-width: $spBreakPoint)
+				width: 100%
+				display: block
+				padding: 6.4vw 0 6.133vw
+				font-size: 4.8vw
+			&:hover
+				@media screen and (min-width: 769px)
+					opacity: 0.7
+		&__item + .link__item
+			@media screen and (max-width: $spBreakPoint)
+				margin-top: 8vw
+		&__other
+			a
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: normal
+				font-size: 18px
+				line-height: 130%
+				text-decoration-line: underline
+				color: #3D8D90
+				transition: all 0.3s
+				@media screen and (max-width: $spBreakPoint)
+					display: block
+					font-size: 4.8vw
+					margin-bottom: 5.333vw
+				&:hover
+					@media screen and (min-width: 769px)
+						opacity: 0.7
+						text-decoration: none
+			span
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: normal
+				font-size: 18px
+				line-height: 130%
+				color: #3D8D90
+				margin: 0 10px
+				@media screen and (max-width: $spBreakPoint)
+					display: none
+
+// アニメーション
+@keyframes fadeUpAnime
+	0%
+		opacity: 0
+		transform: translateY(100px)
+
+	100%
+		opacity: 1
+		transform: translateY(0)
+.fadeup
+	animation: fadeUpAnime
+	animation-duration: 2s
+	animation-fill-mode: forwards

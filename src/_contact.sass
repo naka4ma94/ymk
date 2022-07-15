@@ -1,0 +1,313 @@
+.page-contact
+	&__page-title
+		background: url(./images/page-title__contact.jpg)
+		background-size: cover
+		background-position: center
+		background-repeat: no-repeat
+		@media screen and (max-width: $spBreakPoint)
+			background: url(./images/page-title__contact-sp.jpg)
+			background-size: cover
+			background-position: center
+			background-repeat: no-repeat
+	& .contact
+		&__container
+			width: 86.11111%
+			max-width: 1240px
+			margin: 0 auto
+			padding-top: 80px
+			@media screen and (max-width: $spBreakPoint)
+				width: 89.333vw
+				padding-top: 8vw
+				padding-bottom: 17.067vw
+		&__content
+			padding: 60px 8.064516129032%
+			background: #F5F9F9
+			display: flex
+			align-items: center
+			@media screen and (max-width: $spBreakPoint)
+				flex-direction: column
+				padding: 8vw 0
+		&__text
+			font-family: Shippori Mincho B1
+			font-style: normal
+			font-weight: bold
+			font-size: 24px
+			line-height: 180%
+			letter-spacing: 0.05em
+			color: #071C27
+			display: flex
+			align-items: center
+			min-width: 278px
+			@media screen and (max-width: 1200px)
+				min-width: auto
+			@media screen and (max-width: $spBreakPoint)
+				font-size: 5.333vw
+				min-width: auto
+				margin-bottom: 5.867vw
+		&__line
+			height: 1px
+			width: 19.232%
+			min-width: 80px
+			background-color: #3D8D90
+			display: inline-block
+			margin: 0 50px 0 20px
+			@media screen and (max-width: $spBreakPoint)
+				display: none
+		&__tel
+			font-family: Noto Sans JP
+			font-style: normal
+			font-weight: bold
+			font-size: 24px
+			line-height: 100%
+			letter-spacing: 0.05em
+			color: #071C27
+			display: flex
+			align-items: center
+			min-width: 450px
+			@media screen and (max-width: 1200px)
+				flex-direction: column
+				align-items: flex-start
+				min-width: 219px
+			@media screen and (max-width: $spBreakPoint)
+				font-size: 6.4vw
+				min-width: auto
+			&	.tel
+				&__main
+					display: flex
+					align-items: center
+					@media screen and (max-width: 1200px)
+						margin-bottom: 10px
+					@media screen and (max-width: $spBreakPoint)
+						margin-bottom: 2.667vw
+				&__icon
+					font-family: Material Icons Round
+					font-style: normal
+					font-weight: normal
+					font-size: 24px
+					line-height: 100%
+					letter-spacing: 0.05em
+					color: #3D8D90
+					margin-right: 20px
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 6.4vw
+						margin-right: 5.333vw
+				&__time
+					font-family: Noto Sans JP
+					font-style: normal
+					font-weight: normal
+					font-size: 14px
+					line-height: 100%
+					letter-spacing: 0.05em
+					color: #071C27
+					margin-left: 30px
+					@media screen and (max-width: 1200px)
+						margin-left: 0
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 3.733vw
+		&__form
+			width: 83.870967741935%
+			max-width: 1040px
+			margin: 0 auto
+			padding: 120px 0 180px 0
+			@media screen and (max-width: $spBreakPoint)
+				padding: 0
+				padding-top: 16vw
+				width: 100%
+			dl
+				margin-bottom: 46px
+				@media screen and (max-width: $spBreakPoint)
+					margin-bottom: 6.4vw
+			dt
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: bold
+				font-size: 18px
+				line-height: 100%
+				letter-spacing: 0.05em
+				color: #3D8D90
+				margin-bottom: 10px
+				@media screen and (max-width: $spBreakPoint)
+					font-size: 3.733vw
+					margin-bottom: 2.667vw
+				.required
+					background: #ED8080
+					font-family: Noto Sans JP
+					font-style: normal
+					font-weight: bold
+					font-size: 14px
+					line-height: 100%
+					letter-spacing: 0.1em
+					color: #FFFFFF
+					padding: 5px 10px
+					margin-left: 10px
+					display: inline-block
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 3.2vw
+						margin-left: 2.667vw
+						padding: 1.333vw 2.667vw
+			dd
+				select
+					width: 100%
+					padding: 16px 15px
+					border: 1px solid #3D8D90
+					font-family: Noto Sans JP
+					font-style: normal
+					font-weight: normal
+					font-size: 18px
+					line-height: 100%
+					letter-spacing: 0.05em
+					color: #C4C4C4
+					box-sizing: border-box
+					appearance: none
+					position: relative
+					background: #fff
+					@media screen and (max-width: $spBreakPoint)
+						padding: 4.267vw 4vw
+						font-size: 4.267vw
+				select::-ms-expand
+					display: none
+				select.select-option
+					color: #071C27
+				input, textarea
+					width: 100%
+					padding: 16px 15px
+					border: 1px solid #3D8D90
+					font-family: Noto Sans JP
+					font-style: normal
+					font-weight: normal
+					font-size: 18px
+					line-height: 100%
+					letter-spacing: 0.05em
+					color: #071C27
+					box-sizing: border-box
+					appearance: none
+					position: relative
+					background: #fff
+					@media screen and (max-width: $spBreakPoint)
+						padding: 4.267vw 4vw
+						font-size: 4.267vw
+					&::placeholder
+						color: #C4C4C4
+					&::-ms-input-placeholder
+						color: #C4C4C4
+					&:-ms-input-placeholder
+						color: #C4C4C4
+				&.contact-category
+					position: relative
+					&::after
+						position: absolute
+						top: 50%
+						right: 15px
+						font-family: "Material Icons"
+						content: 'arrow_drop_down'
+						transform: translateY(-50%)
+						font-size: 24px
+						color: #3D8D90
+						pointer-events: none
+						@media screen and (max-width: $spBreakPoint)
+							right: 5.6vw
+							font-size: 4.8vw
+			.checkbox
+				text-align: center
+				padding: 30px 0
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: normal
+				font-size: 18px
+				line-height: 160%
+				letter-spacing: 0.05em
+				color: #344756
+				margin-bottom: 40px
+				background: #F5F9F9
+				@media screen and (max-width: $spBreakPoint)
+					padding: 8vw 5.333vw
+					font-size: 3.733vw
+					text-align: left
+				.your-agree
+					margin-top: 20px
+					display: block
+					@media screen and (max-width: $spBreakPoint)
+						margin-top: 5.333vw
+						text-align: center
+				a
+					color: #3176A3
+					font-family: Noto Sans JP
+					font-style: normal
+					font-weight: normal
+					font-size: 18px
+					line-height: 160%
+					text-align: center
+					letter-spacing: 0.05em
+					text-decoration: underline
+					@media screen and (max-width: $spBreakPoint)
+						font-size: 3.733vw
+					.material-icons-outlined
+						font-size: 16px
+				input
+					border: 1px solid #3176A3
+					margin: 0 10px 0 0
+					// appearance: none
+					// outline: none
+					width: 22px
+					height: 22px
+					@media screen and (max-width: $spBreakPoint)
+						width: 4.267vw
+						height: 4.267vw
+				label
+					display: flex
+					align-items: center
+					@media screen and (max-width: $spBreakPoint)
+						line-height: 160%
+						margin-bottom: 5.333vw
+						padding-left: 6.933vw
+						position: relative
+					input
+						@media screen and (max-width: $spBreakPoint)
+							position: absolute
+							top: 50%
+							left: 0
+							transform: translateY(-50%)
+					span
+						font-family: Noto Sans JP
+						font-style: normal
+						font-weight: bold
+						font-size: 22px
+						line-height: 100%
+						text-align: center
+						letter-spacing: 0.05em
+						color: #071C27
+				.first-label
+					display: block
+					@media screen and (max-width: $spBreakPoint)
+						padding: 0
+						text-align: left
+						display: block
+			.wpcf7-list-item
+				margin: 0
+			.wpcf7-submit
+				background: #3D8D90
+				color: #fff
+				font-family: Roboto
+				font-style: normal
+				font-weight: normal
+				font-size: 18px
+				line-height: 150%
+				width: 400px
+				padding: 17px 0 16px 0
+				margin: 0 auto
+				display: block
+				@media screen and (max-width: $spBreakPoint)
+					width: 100%
+			& .form
+				&__title
+					text-align: center
+					font-family: Shippori Mincho B1
+					font-style: normal
+					font-weight: bold
+					font-size: 24px
+					line-height: 180%
+					letter-spacing: 0.05em
+					color: #091437
+					margin-bottom: 63px
+					@media screen and (max-width: $spBreakPoint)
+						margin-bottom: 11.733vw

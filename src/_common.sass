@@ -1,0 +1,191 @@
+$spBreakPoint: 768px
+$tbBreakPoint: 959px
+
+// デスクトップ時表示タグ
+@media screen and (min-width: 769px)
+	.sp
+		display: none!important
+@media screen and (max-width: 768px)
+	.pc
+		display: none!important
+
+body
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+main
+	word-wrap: break-word
+	@media screen and (max-width: $spBreakPoint)
+		margin-top: 15.9vw
+
+.header-padding
+	padding-top: 80px
+	@media screen and (max-width: $spBreakPoint)
+		padding-top: 0
+.button
+	width: 400px
+	border: 1px solid #3D8D90
+	margin: 0 auto
+	@media screen and (max-width: $spBreakPoint)
+		width: 89.333333333333%
+	&__text
+		display: block
+		position: relative
+		font-family: Shippori Mincho B1
+		font-style: normal
+		font-weight: 600
+		font-size: 18px
+		line-height: 100%
+		letter-spacing: 0.1em
+		color: #3D8D90
+		background: #fff
+		padding: 21px 0
+		text-align: center
+		z-index: 1
+		@media screen and (max-width: $spBreakPoint)
+			font-size: 4.267vw
+			padding: 5.867vw 0
+		&::after
+			font-family: 'Material Icons'
+			content: "arrow_forward"
+			color: #3D8D90
+			font-size: 18px
+			vertical-align: sub
+			position: absolute
+			right: 33px
+			transition: all 0.7s
+			@media screen and (max-width: $spBreakPoint)
+				font-size: 4.8vw
+				right: 16px
+		&::before
+			content: ""
+			position: absolute
+			top: 0
+			left: 0
+			background: #3D8D90
+			width: 0
+			height: 100%
+			transition: all 0.5s
+			z-index: -1
+		@media screen and (min-width: 769px)
+			&:hover
+				color: #fff
+				background-color: rgba(61, 141, 144, 0.3)
+				&::before
+					width: 100%
+				&::after
+					color: #fff
+					right: 20px
+.page-title
+	background: url(./images/page-title-bg.jpg) no-repeat bottom
+	background-size: cover
+	padding: 7.56945vw 0
+	@media screen and (max-width: $spBreakPoint)
+		padding: 17.067vw 0
+	&__title
+		font-family: Shippori Mincho B1
+		font-style: normal
+		font-weight: normal
+		font-size: 48px
+		line-height: 130%
+		text-align: center
+		letter-spacing: 0.2em
+		color: #FFFFFF
+		@media screen and (max-width: $spBreakPoint)
+			font-size: 8.533vw
+.active
+	background-color: #3D8D90 !important
+	color: #fff !important
+.no-thumbnail
+	background: url(./images/no-thumbnail.jpg) no-repeat center
+	background-size: 100%
+.wp-pagenavi
+	display: flex
+	justify-content: space-between
+	align-items: center
+	position: relative
+	a:hover
+		border-color: #3D8D90
+	.pages
+		border: none
+		font-family: Shippori Mincho B1
+		font-style: normal
+		font-weight: 600
+		font-size: 18px
+		line-height: 130%
+		color: #3D8D90
+		position: absolute
+		left: 50%
+		top: 50%
+		transform: translate(-50%, -50%)
+		@media screen and (max-width: $spBreakPoint)
+			font-size: 4.8vw
+	.page
+		display: none
+	.current
+		display: none
+	.previouspostslink
+		display: block
+		width: 200px
+		text-align: center
+		padding: 21px
+		border: 1px solid #3D8D90
+		font-family: Shippori Mincho B1
+		font-style: normal
+		font-weight: 600
+		font-size: 18px
+		line-height: 100%
+		letter-spacing: 0.1em
+		color: #3D8D90
+		@media screen and (max-width: $spBreakPoint)
+			width: 32vw
+			font-size: 4.267vw
+			padding: 4.355vw 0 4.712vw
+	.nextpostslink
+		display: block
+		width: 200px
+		text-align: center
+		padding: 21px 0
+		border: 1px solid #3D8D90
+		font-family: Shippori Mincho B1
+		font-style: normal
+		font-weight: 600
+		font-size: 18px
+		line-height: 100%
+		letter-spacing: 0.1em
+		color: #3D8D90
+		margin-left: auto
+		@media screen and (max-width: $spBreakPoint)
+			width: 32vw
+			font-size: 4.267vw
+			padding: 4.355vw 0 4.712vw
+.post-count
+	font-family: Shippori Mincho B1
+	font-style: normal
+	font-weight: 600
+	font-size: 20px
+	line-height: 130%
+	color: #3D8D90
+	margin-bottom: 30px
+	@media screen and (max-width: $spBreakPoint)
+		margin-bottom: 8vw
+		font-size: 5.333vw
+
+// パララックスのJSで付与するクラス
+// .parallax-fixed
+// 	position: fixed
+// 	top: 80px
+// 	width: 100%
+// 	z-index: -1
+// 	@media screen and (max-width: $spBreakPoint)
+// 		top: 16vw
+
+// 会社概要-serviceのサイドバーを追従
+.sidebar-fixed
+	@media screen and (min-width: 769px)
+		position: fixed
+		top: 120px
+.sidebar-fixed-bottom
+	@media screen and (min-width: 769px)
+		position: absolute
+		bottom: 120px

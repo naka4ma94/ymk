@@ -1,0 +1,170 @@
+.pc-header
+	display: flex
+	justify-content: space-between
+	align-items: center
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	filter: drop-shadow(0px 4px 50px rgba(211, 231, 233, 0.5))
+	z-index: 999
+	background: #fff
+	&__logo
+		width: 322px
+		text-align: right
+		img
+			width: 222px
+	&__nav
+		width: 897px
+		display: flex
+		min-width: 607px
+	&__list
+		display: flex
+		width: 77.951%
+		.item
+			> a
+				display: flex
+				justify-content: center
+				flex-direction: column
+				padding: 23px 0 21px 0
+				align-items: center
+				width: 100%
+				@media screen and (min-width: 769px)
+					&:hover
+						border-top: 8px solid #3D8D90
+						padding-top: 15px
+						.item__ja
+							color: #3D8D90
+			&__ja
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 18px
+				line-height: 100%
+				letter-spacing: 0.05em
+				color: #071C27
+				margin-bottom: 6px
+				transition: all 0.3s
+			&__en
+				font-family: Noto Sans JP
+				font-style: normal
+				font-weight: 400
+				font-size: 12px
+				line-height: 100%
+				letter-spacing: 0.3em
+				color: #B5E366
+	&__item
+		list-style: none
+		display: flex
+		align-items: center
+		width: calc( 100% / 5 )
+		&::after
+			content: ""
+			width: 1px
+			height: 70px
+			background: #F7F7F8
+	&__link
+		width: 22.049%
+		background: #3D8D90
+		display: flex
+		align-items: center
+		justify-content: center
+		transition: all 0.3s
+		@media screen and (min-width: 769px)
+			&:hover
+				background: #70C97C
+	&__contact
+		height: 100%
+		font-family: Shippori Mincho B1
+		font-style: normal
+		font-weight: 600
+		font-size: 18px
+		line-height: 100%
+		letter-spacing: 0.05em
+		color: #FFFFFF
+		display: flex
+		align-items: center
+		width: 100%
+		justify-content: center
+		span
+			font-size: 15px
+			margin-right: 10px
+.fixed
+	position: fixed
+	top: 0 !important
+
+.sp-header
+	position: fixed
+	top: 0
+	background: #fff
+	z-index: 999
+	width: 100%
+	display: flex
+	&__logo
+		width: 68vw
+		padding: 3.4666vw 0 3.7334vw 5.333vw
+		a
+			display: inline-block
+			img
+				width: 40.6vw
+	&__nav
+		width: 32vw
+	&__link
+		display: flex
+		height: 100%
+	&__contact
+		width: 50%
+		background: #B5E366
+		display: flex
+		align-items: center
+		justify-content: center
+		span
+			color: #fff
+			font-size: 7.733vw
+	&__hamburger
+		width: 50%
+		background: #3D8D90
+		display: flex
+		align-items: center
+		justify-content: center
+		flex-direction: column
+		& .hamburger
+			&__container
+				display: block
+				padding: 1.333vw 0
+			&__bar
+				width: 6.4vw
+				height: 0.8vw
+				background: #fff
+				display: block
+				border-radius: 2.667vw
+				transition: all .4s
+				&:nth-child(1)
+					margin-bottom: 1.067vw
+					&.close
+						-webkit-transform: translateY(1.867vw) rotate(45deg)
+						transform: translateY(1.867vw) rotate(45deg)
+						transition: transform 0.3s
+				&:nth-child(2)
+					margin-bottom: 1.067vw
+					&.close
+						opacity: 0
+						transition: opacity 0.3s
+				&:nth-child(3)
+					&.close
+						-webkit-transform: translateY(-1.867vw) rotate(-45deg)
+						transform: translateY(-1.867vw) rotate(-45deg)
+						transition: transform 0.3s
+			&__title
+				font-family: Shippori Mincho B1
+				font-style: normal
+				font-weight: 600
+				font-size: 2.667vw
+				line-height: 100%
+				color: #FFFFFF
+.is-noScroll
+	overflow-y: hidden
+	height: 100%
+.html-is-noScroll
+	overflow-y: auto
+	height: 100%

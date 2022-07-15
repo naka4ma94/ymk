@@ -1,0 +1,36 @@
+// リセット
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, a, b
+  margin: 0
+  padding: 0
+  font-size: 100%
+  line-height: 100%
+  vertical-align: baseline
+  text-decoration: none
+  box-sizing: border-box
+
+// Elements
+html
+body
+  font-family: 'Noto Sans JP', sans-serif
+  height: 100%
+img
+  max-width: 100%
+  max-height: 100%
+a
+  color: #000
+
+// input系スタイルリセット
+input,
+button
+  &[type="submit"], &[type="button"]
+    border-radius: 0
+    -webkit-box-sizing: content-box
+    -webkit-appearance: button
+    appearance: button
+    border: none
+    box-sizing: border-box
+    cursor: pointer
+  &[type="submit"]::-webkit-search-decoration, &[type="button"]::-webkit-search-decoration
+    display: none
+  &[type="submit"]::focus, &[type="button"]::focus
+    outline-offset: -2px
